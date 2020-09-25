@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.heart{
+    font-size: 2rem;
+    position: fixed;
+    top: -5vh;
+    animation: fall 3s linear;
+    
+}
+
+@keyframes fall {
+    100% {
+        transform: translateY(110vh);
+    }
+}
